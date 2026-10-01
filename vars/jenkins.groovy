@@ -16,7 +16,7 @@ stages{
  //this stage for build
  stage('build'){
  steps{
- sh "mvn ${config.mavnecommand"
+ sh "mvn ${config.mavnecommand}"
 }
 }
 }
